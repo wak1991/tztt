@@ -1,0 +1,54 @@
+[2018-11-16 00:29:32] Текст ошибки: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'init.specialists' doesn't exist | Файл: C:\OSPanel\domains\tztt\vendor\gabordemooij\redbean\RedBeanPHP\Driver\RPDO.php | Строка: 188
+=====================
+[2018-11-16 00:30:41] Текст ошибки: Class 'app\widgets\menu\Menu' not found | Файл: C:\OSPanel\domains\tztt\app\views\Main\index.php | Строка: 244
+=====================
+[2018-11-16 00:32:43] Текст ошибки: Class 'app\widgets\menu\Menu' not found | Файл: C:\OSPanel\domains\tztt\app\views\Main\index.php | Строка: 244
+=====================
+[2018-11-16 00:32:45] Текст ошибки: Class 'app\widgets\menu\Menu' not found | Файл: C:\OSPanel\domains\tztt\app\views\Main\index.php | Строка: 244
+=====================
+[2018-11-16 00:32:56] Текст ошибки: Class 'app\widgets\menu\Menu' not found | Файл: C:\OSPanel\domains\tztt\app\views\Main\index.php | Строка: 244
+=====================
+[2018-11-16 00:49:41] Текст ошибки: Страница не найдена | Файл: C:\OSPanel\domains\tztt\vendor\ishop\core\Router.php | Строка: 44
+=====================
+[2018-11-16 00:49:41] Текст ошибки: Страница не найдена | Файл: C:\OSPanel\domains\tztt\vendor\ishop\core\Router.php | Строка: 44
+=====================
+[2018-11-16 00:52:49] Текст ошибки: Страница не найдена | Файл: C:\OSPanel\domains\tztt\vendor\ishop\core\Router.php | Строка: 44
+=====================
+[2018-11-16 00:52:49] Текст ошибки: Страница не найдена | Файл: C:\OSPanel\domains\tztt\vendor\ishop\core\Router.php | Строка: 44
+=====================
+[2018-11-16 00:53:06] Текст ошибки: Страница не найдена | Файл: C:\OSPanel\domains\tztt\vendor\ishop\core\Router.php | Строка: 44
+=====================
+[2018-11-16 00:53:06] Текст ошибки: Страница не найдена | Файл: C:\OSPanel\domains\tztt\vendor\ishop\core\Router.php | Строка: 44
+=====================
+[2018-11-16 00:53:19] Текст ошибки: Страница не найдена | Файл: C:\OSPanel\domains\tztt\vendor\ishop\core\Router.php | Строка: 44
+=====================
+[2018-11-16 00:53:19] Текст ошибки: Страница не найдена | Файл: C:\OSPanel\domains\tztt\vendor\ishop\core\Router.php | Строка: 44
+=====================
+[2018-11-16 00:57:32] Текст ошибки: Страница не найдена | Файл: C:\OSPanel\domains\tztt\vendor\ishop\core\Router.php | Строка: 44
+=====================
+[2018-11-16 00:57:32] Текст ошибки: Страница не найдена | Файл: C:\OSPanel\domains\tztt\vendor\ishop\core\Router.php | Строка: 44
+=====================
+[2018-11-16 00:58:27] Текст ошибки: Страница не найдена | Файл: C:\OSPanel\domains\tztt\vendor\ishop\core\Router.php | Строка: 44
+=====================
+[2018-11-16 00:58:27] Текст ошибки: Страница не найдена | Файл: C:\OSPanel\domains\tztt\vendor\ishop\core\Router.php | Строка: 44
+=====================
+[2018-11-16 00:58:29] Текст ошибки: Страница не найдена | Файл: C:\OSPanel\domains\tztt\vendor\ishop\core\Router.php | Строка: 44
+=====================
+[2018-11-16 00:58:29] Текст ошибки: Страница не найдена | Файл: C:\OSPanel\domains\tztt\vendor\ishop\core\Router.php | Строка: 44
+=====================
+[2018-11-16 00:59:37] Текст ошибки: Страница не найдена | Файл: C:\OSPanel\domains\tztt\vendor\ishop\core\Router.php | Строка: 44
+=====================
+[2018-11-16 00:59:37] Текст ошибки: Страница не найдена | Файл: C:\OSPanel\domains\tztt\vendor\ishop\core\Router.php | Строка: 44
+=====================
+[2018-11-16 01:00:14] Текст ошибки: Страница не найдена | Файл: C:\OSPanel\domains\tztt\vendor\ishop\core\Router.php | Строка: 44
+=====================
+[2018-11-16 01:00:14] Текст ошибки: Страница не найдена | Файл: C:\OSPanel\domains\tztt\vendor\ishop\core\Router.php | Строка: 44
+=====================
+[2018-11-16 01:00:17] Текст ошибки: Страница не найдена | Файл: C:\OSPanel\domains\tztt\vendor\ishop\core\Router.php | Строка: 44
+=====================
+[2018-11-16 01:00:17] Текст ошибки: Страница не найдена | Файл: C:\OSPanel\domains\tztt\vendor\ishop\core\Router.php | Строка: 44
+=====================
+[2018-11-16 01:00:39] Текст ошибки: Страница не найдена | Файл: C:\OSPanel\domains\tztt\vendor\ishop\core\Router.php | Строка: 44
+=====================
+[2018-11-16 01:00:39] Текст ошибки: Страница не найдена | Файл: C:\OSPanel\domains\tztt\vendor\ishop\core\Router.php | Строка: 44
+=====================
