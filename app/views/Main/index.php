@@ -4,7 +4,11 @@
         <div class="row">
             <div class="col-lg-12 col-md-12">
                 <h1>Отзывы:</h1>
+                <h4><a href="<?=ADMIN?>">Войти в админку</a></h4>
             </div>
+            <?php if (isset($_SESSION['success'])): ?>
+                <?=$_SESSION['success']; unset($_SESSION['success']);?>
+            <?php endif; ?>
         </div>
     </div>
 </section> <!-- /#promotional-text -->
@@ -48,11 +52,11 @@
         <div class="row">
             <div class="col-lg-6 col-md-6 col-sm-12 col-xs-12 ">
                 <h3>Оставить отзыв</h3>
-                <form action="sendemail.php" class="contact-form">
+                <form action="/main/signup" method="post" enctype="multipart/form-data">
                     <p><input type="text" name="name" placeholder="Имя"></p>
                     <p><input type="text" name="email" placeholder="Email"></p>
-                    <p><input type="text" name="subject" placeholder="Картинка"></p>
-                    <p><textarea name="message" placeholder="Текст сообщения"></textarea></p>
+                    <p><input type="file" name="img"</p>
+                    <p><textarea name="description" placeholder="Текст сообщения"></textarea></p>
                     <p><button type="submit">Отправить</button></p>
                 </form>
             </div>

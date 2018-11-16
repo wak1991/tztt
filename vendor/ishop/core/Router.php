@@ -2,7 +2,6 @@
 
 namespace ishop;
 
-
 class Router
 {
     protected static $routes = [];
@@ -13,12 +12,12 @@ class Router
         self::$routes[$regexp] = $route;
     }
 
-    public static function getRoutes()
+    public  static function getRoutes()
     {
         return self::$routes;
     }
 
-    public static function getRoute()
+    public  static function getRoute()
     {
         return self::$route;
     }
@@ -26,12 +25,13 @@ class Router
     public static function dispatch($url)
     {
         $url = self::removeQueryString($url);
-        if (self::matchRoute($url)){
+        if (self::matchRoute($url))
+        {
             $controller = 'app\controllers\\' . self::$route['prefix'] . self::$route['controller'] . 'Controller';
-            if(class_exists($controller)){
+            if (class_exists($controller)){
                 $controllerObject = new $controller(self::$route);
-                $action = self::loverCamelCase(self::$route['action']) . 'Action';
-                if(method_exists($controllerObject, $action)){
+                $action = self::lowerCamelCase(self::$route['action']) . 'Action';
+                if (method_exists($controllerObject, $action)){
                     $controllerObject->$action();
                     $controllerObject->getView();
                 }else{
@@ -47,17 +47,19 @@ class Router
 
     public static function matchRoute($url)
     {
-        foreach (self::$routes as $pattern => $route){
-            if(preg_match("#{$pattern}#", $url, $matches)){
-                foreach ($matches as $k => $v){
-                    if (is_string($k)){
+        foreach (self::$routes as $pattern => $route)
+        {
+            if (preg_match("#{$pattern}#i", $url,$matches))
+            {
+                foreach($matches as $k => $v){
+                    if(is_string($k)){
                         $route[$k] = $v;
                     }
                 }
-                if (empty($route['action'])){
+                if(empty($route['action'])){
                     $route['action'] = 'index';
                 }
-                if (!isset($route['prefix'])){
+                if(!isset($route['prefix'])){
                     $route['prefix'] = '';
                 }else{
                     $route['prefix'] .= '\\';
@@ -77,20 +79,21 @@ class Router
     }
 
     // camelCase
-    protected static function loverCamelCase($name)
+    protected static function lowerCamelCase($name)
     {
         return lcfirst(self::upperCamelCase($name));
     }
 
     protected static function removeQueryString($url)
     {
-        if($url){
+        if ($url){
             $params = explode('&', $url, 2);
-            if(false === strpos($params[0], '=')){
+            if (false === strpos($params[0], '=')){
                 return rtrim($params[0], '/');
             }else{
                 return '';
             }
         }
     }
+
 }
