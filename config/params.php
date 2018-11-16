@@ -6,4 +6,6 @@ return [
     'pagination' => 3,
     'smtp_login' => '',
     'smtp_password' => '',
+    'img_width' => 100,
+    'img_height' => 100,
 ];

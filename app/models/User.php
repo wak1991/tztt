@@ -27,7 +27,7 @@ class User extends AppModel
             ['email'],
         ],
         'lengthMin' => [
-            ['password', 6],
+            ['password', 3],
         ]
     ];
 

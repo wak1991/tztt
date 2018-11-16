@@ -21,4 +21,18 @@ class AppController extends Controller
         parent::__construct($route);
         new AppModel();
     }
+
+    public function getRequestId($get = true, $id = 'id')
+    {
+        if ($get){
+            $data = $_GET;
+        }else{
+            $data = $_POST;
+        }
+        $id = !empty($data[$id]) ? (int)$data[$id] : null;
+        if (!$id){
+            throw new \Exception('Страница не найдена', 404);
+        }
+        return $id;
+    }
 }

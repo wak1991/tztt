@@ -47,28 +47,4 @@ abstract class Model
         return \R::store($bean);
     }
 
-    public function validate($data)
-    {
-        Validator::lang('ru');
-        $v = new Validator($data);
-        $v->rules($this->rules);
-        if ($v->validate()){
-            return true;
-        }
-        $this->errors = $v->errors();
-        return false;
-    }
-
-    public function getErrors()
-    {
-        $errors = '<ul>';
-        foreach ($this->errors as $error){
-            foreach ($error as $item){
-                $errors .= "<li>$item</li>";
-            }
-        }
-        $errors .= '</ul>';
-        $_SESSION['error'] = $errors;
-    }
-
 }

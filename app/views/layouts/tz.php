@@ -43,13 +43,5 @@
 <script src="js/jquery.easing.min.js"></script> <!-- jquery easing JS -->
 <script src="js/custom.js"></script> <!-- Custom JS -->
 
-<?php
-$logs = R::getDatabaseAdapter()
-->getDatabase()
-->getLogger();
-
-debug( $logs->grep( 'SELECT' ) );
-?>
-
 </body>
 </html>

@@ -3,9 +3,9 @@
 -- https://www.phpmyadmin.net/
 --
 -- Хост: 127.0.0.1:3306
--- Время создания: Ноя 16 2018 г., 13:55
+-- Время создания: Ноя 16 2018 г., 22:22
 -- Версия сервера: 5.6.37
--- Версия PHP: 5.6.31
+-- Версия PHP: 7.1.7
 
 SET SQL_MODE = "NO_AUTO_VALUE_ON_ZERO";
 SET AUTOCOMMIT = 0;
@@ -44,9 +44,9 @@ CREATE TABLE `posts` (
 --
 
 INSERT INTO `posts` (`id`, `name`, `description`, `img`, `email`, `date`) VALUES
-(1, 'Вася', 'Отзыв Васи', '1.jpg', '1@mail.ru', '2018-11-15 22:09:08'),
-(2, 'Петя', 'Отзыв Пети', '2.jpg', '2@mail.ru', '2018-11-15 22:09:08'),
-(3, 'Игорь', 'Отзыв Игоря', '3.jpg', '3@mail.ru', '2018-11-15 22:09:32');
+(1, 'Витя', 'Витя 1@mail.ru', '1.jpg', '1@mail.ru', '2018-11-16 19:19:37'),
+(2, 'Коля', 'Коля 2@mail.ru', '2.jpg', '2@mail.ru', '2018-11-16 19:19:56'),
+(3, 'Петя', 'Петя 3@mail.ru', '3.jpg', '3@mail.ru', '2018-11-16 19:20:26');
 
 -- --------------------------------------------------------
 
@@ -66,7 +66,7 @@ CREATE TABLE `user` (
 --
 
 INSERT INTO `user` (`id`, `login`, `password`, `role`) VALUES
-(1, 'admin', '$2y$10$jUb/Gq91bjzQwzLH9d5YV.Dvm5/6HNowvni4k0VgFeoo3l22jqfcu', 'admin');
+(1, 'admin', '$2y$10$IG9WyctrN5X2YUwG5sBhA.ePyaU5coPxSq/qQiKJYUF27aqcGw/56', 'admin');
 
 --
 -- Индексы сохранённых таблиц
